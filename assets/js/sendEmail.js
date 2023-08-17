@@ -10,9 +10,9 @@ function sendmail()
 
 
     Email.send({
-        SecureToken:"15c922db-1203-4ee3-8aea-88f576807ff0",
-        To : "",
-        From: "",
+        SecureToken:"f524097e-8cf6-4b8e-a488-097e4d334561",
+        To : "saepulloh2512@gmail.com",
+        From: "saepulloh2512@gmail.com",
         Subject: "Hotel Booking Status",
         Body:body,
     }).then(
