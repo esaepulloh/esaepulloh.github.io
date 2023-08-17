@@ -13,7 +13,7 @@ function sendmail()
         SecureToken:"231f7eb7-9bf3-4a73-8b12-1dbb0444e337",
         To : "saepulloh2512@gmail.com",
         From: "saepulloh2512@gmail.com",
-        Subject: "Web Portofolio",
+        Subject: "Web Portofolio Epul",
         Body:body,
     }).then(
         message =>{
