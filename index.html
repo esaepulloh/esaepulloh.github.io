@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Epul landing page.">
+    <meta name="description" content="Welcome to Web Portofolio Epul Saepulloh">
     <meta name="author" content="Devcrud">
     <title>Epul Saepulloh Portofolio</title>
     <!-- font icons -->
@@ -190,16 +190,16 @@
             <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
                 <div class="form-row">
                     <div class="form-group col-sm-6">
-                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>                 
+                        <input type="text" id="name" size="50" class="form-control" placeholder="Your Name" required>                 
                     </div>
                     <div class="form-group col-sm-6">
-                        <input type="email" class="form-control" placeholder="Enter Email"requried>                 
+                        <input type="email" id="email" class="form-control" placeholder="Enter Email"requried>                 
                     </div>
                     <div class="form-group col-sm-12">
                         <textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Write Something"></textarea>
                     </div>
                     <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">                  
+                        <input type="button" onclick="sendmail() ; reset(); return false" value="Send Message" class="btn btn-outline-primary rounded">                  
                     </div>
                 </div>  
             </form><!-- end of contact form -->
@@ -227,6 +227,9 @@
 
     <!-- Meyawo js -->
     <script src="assets/js/meyawo.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="assets/js/sendEmail.js"></script>
 
 </body>
 </html>
